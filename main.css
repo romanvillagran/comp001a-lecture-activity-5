@@ -1,0 +1,106 @@
+/* Note: css are applied from top to bottom. Last rule wins. /*
+/* method 1: External css part 3 */
+.External-css {
+    color: #038C7F; /*8 teal text color*/
+    Background-color: #01403A; /* Dark teal background color */
+}
+
+body, h1, h2, p, ul, li, a {
+    margin: 0px; /* removing the default margins */
+    padding: 0px; /* removing the default padding */
+    font-family: Arial, Helvetica, sans-serif; /* setting the default font */
+}
+
+body {
+    background-color: #012626; /* dark teal body background color */ 
+}
+
+H1 {
+    color:#038c7f; /* teal text color*/
+    font-size: 2em; /* 2x the default font size */
+    margin-bottom: 1em; /* adding some space below the heading */
+}
+
+h2 {
+    font-size: 1.5em; /* 1.5x the default font size */
+    color:#027368; /* dark teal text color */
+}
+
+/*styling the paragraph */
+p {
+    font-size: 16px; /* 16px is the default font size */
+    color: #7f8c8d; /* grayish-blue */
+    margin-bottom: 12px; /* adding some space below the paragraph */
+}
+
+/* styling the link within the paragraph */
+p a {
+    color: #f39c12; /* gold accent */
+    text-decoration: none; /* removing the underline */
+}
+
+/* styling the unordered list */
+ul {
+    list-style-type: none; /* removing the bullet points */
+    margin-left: 20px; /*indenting the list */
+    margin-bottom: 12px; /* adding some space below the list */
+}
+
+ul li {
+    margin-bottom: 5px; /* adding some space below each list item */
+    color: #7f8c8d; /* grayish-blue text color */ 
+}
+
+/* styling the unordered list within a div */
+div ul {
+    list-style-type: square; /* adding the bullet points back */
+}
+
+/* general styling using a class */
+.feature-card {
+    border: 2px solid #7f8c8d; /* grayish-blue */
+    padding: 20px; /* adding some space inside the card */
+    margin: 20px; /* adding some space outside the card */
+    background-color: #f9f9f9; /* light gray */
+}
+
+/*styling h3 within a class */
+.feature-card h3 {
+    font-size: 20px; /* 20pc is the default font size */
+    margin-bottom: 10px; /* adding some space below thee heading */
+    color: #2c3e50; /* deep blue text color */
+}
+
+/* styling p within a class */
+.feature-card p {
+    margin-bottom: 10px; /* adding sme space below the paragraph */
+    color: #7f8c8d; /* grayish-blue text color */
+}
+
+/* specific styling using an ID */
+#special-feature {
+    background-color: #fde3a7; /* light gold background color */
+    border-color: #f39c12; /* gold border color */
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1); /* adding a shadow */
+}
+
+/* styling the link in its normal state */
+a {
+    display: inline-block; /* making the link a block element */
+    color: #3498db; /* bright blue text color */
+    text-decoration: none; /* removing the underline */
+    padding: 5px 10px; /* adding some space inside the link */
+    border: 1px solid #3498db; /* bright blue border color */
+    transition: all 0.3s ease; /* adding a transition */
+}
+
+/* conditional styling for the hover state */
+a:hover {
+    background-color: #3498db; /* bright blue background color */
+    color: white; /* white text color */
+}
+
+/* conditional styling fo the hover state */
+button:hover {
+    background-color: red; /* red background color */
+}
